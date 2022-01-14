@@ -1,4 +1,4 @@
-#include<bits:stdc++.h>
+#include<bits_stdc++.h>
 using namespace std;
  
 void increment(int* v) 
@@ -8,7 +8,7 @@ void increment(int* v)
 }
 
 void update(int *a,int *b) 
-// CODE 2: how pointers can be used to manipulate a variable wihtout having its access
+// CODE 2: how pointers can be used to manipulate a variable without having its access
 {
     *a += *b;
     *b = abs(*a - 2*(*b));
