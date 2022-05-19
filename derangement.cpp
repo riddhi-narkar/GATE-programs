@@ -1,4 +1,5 @@
-#include <bits_stdc++.h>
+#include <bits_stdc++.h> //comment line 1 and removed the comment the next line if are getting errors for line 1
+//#include <bits/stdc++.h>
 using namespace std;
 
 int derangements = 0, flag = 0;
