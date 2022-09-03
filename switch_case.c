@@ -9,7 +9,8 @@ int main()
         case 'B' :
         case 'C' : printf ("Choice B") ;
         case 'D' :
-        case 'E' : default : printf ( " No Choice");
+        case 'E' : 
+        default  : printf ( " No Choice");
     }
     
     return 0;
